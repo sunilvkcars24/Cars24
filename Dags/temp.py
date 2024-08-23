@@ -14,4 +14,4 @@ jobs:
           python-version: 3.9.7
       - name: execute py script
         run: |
-          python review_reports.py
+          python test.py
