@@ -1,7 +1,7 @@
 name: run_script
 on: 
     schedule:
-      - cron: "8 0 * * *" #runs at 08:00 UTC everyday
+      - cron: "*/5 * * * *" #runs at 08:00 UTC everyday
 jobs:
   run_review_reports:
     runs-on: ubuntu-latest
